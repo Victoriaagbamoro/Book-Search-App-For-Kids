@@ -1,0 +1,98 @@
+.main-bg{
+    content: "";
+    bottom: 0;
+    right: 0;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-color: #e8eff1;
+}
+
+.instruct-image{
+    width: 85%;
+    height: 55vh;
+}
+
+.main-display{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+    width: 85%;
+}
+
+/* Instructors */
+.instructors .instructors-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    height: 20vh;
+}
+
+.instructors .instructors-bg h2{
+    font-size: 27px;
+    color: #1b3b6f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 18px;
+}
+
+.instructors .instructors-bg p{
+    font-size: 18px;
+    color: #1b3b6f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.main-part .main-display{
+    width: 85%;
+    /* padding: 0px 30px; */
+
+}
+
+
+.main-part .main-display h3{
+    font-size: 20px;
+    color: #1b3b6f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 40px;
+}
+
+.main-part .main-display p{
+    font-size: 16px;
+    color: #1b3b6f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 30px;
+    width: 70%;
+}
+
+.instruct-bg{
+    text-align: center;
+    height: 15vh;
+    
+}
+
+.instruct-button{
+    padding: 13px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #ff5a5f;
+    text-align: center;
+    cursor: pointer;
+    width: 15%;
+    font-size: 18px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+
+.instruct-button:hover {
+    background-color: #e26468;
+    width: 20%;
+}
+

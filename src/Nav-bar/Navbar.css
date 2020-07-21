@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+} 
+
+header.background{
+    background-color: #c3ecf7;
+    width: 100%;
+    min-height: 90vh;
+    /* background-attachment: fixed; */
+
+}
+
+body{
+    font-family: montserrat;
+}
+
+div.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color:#ffbe0b;
+    /* line-height: 80px; */
+}
+
+
+.hero .about-mission {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+    height: 80vh;
+    background-attachment: fixed;
+
+    
+}
+
+.imgbb{
+    height: 70vh;
+    width: 95%;
+    
+}
+.image-land{
+    margin-left: 2rem;
+    padding:10px 20px;
+}
+.hero .about-mission .heading{
+    width: 90%;
+    font-size: 50px;
+    color: #ffba08;
+    font-weight: bold;
+}
+
+.hero .about-mission .headings{
+    width: 90%;
+    font-size: 47px;
+    color: #1b3b6f;
+    font-weight: bold;
+}
+.hero .about-mission .text {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  .hero .about-mission .text p {
+    font-size: 18px;
+    color: #1b3b6f;
+    padding: 25px 0px;
+  }
+
+  .hero .about-mission .text button {
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: white;
+    background-color: #ffba08;
+    text-align: center;
+    cursor: pointer;
+    width: 45%;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    background-attachment: fixed;
+}
+
+.hero .about-mission .text button:hover {
+    background-color: #f1be3a;
+    width: 55%;
+}
+
+.row-one{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background-size: cover;
+
+} 
+
+.row-two{
+    content: "";
+    bottom: 0;
+    right: 0;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+
+} 
+
+.row-bg{
+    background-color: #ffbe0b;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+/* course-image */
+.course-image{
+    width: 100%;
+    height: 100%;
+}
+
+/* Main-body */
+.display-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    width: 85%;
+    height: 80vh;
+}
+
+.row-display{
+    display: flex;
+    align-items: inherit;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 18px 30px;
+
+    
+}
+
+.bg-one {
+    background: #04d5ff;
+    height: 70px;
+    width: 120px;
+    border-radius: 35%; 
+    text-align: center;
+    color: #ffff;
+    margin: 0px 20px;
+    background: radial-gradient(circle at 100px 100px, #5cabff, #04d5ff); 
+  }
+
+.bg-one h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-two {
+    background: #f36486;
+    height: 70px;
+    width: 100px;
+    border-radius: 35%; 
+    text-align: center;
+    color: #ffff;
+    margin: 0px 20px;
+    background: radial-gradient(circle at 100px 100px, #ff6b6b, #f36486); 
+  }
+
+  .bg-two h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-three {
+    background: #ffd53e;
+    height: 70px;
+    width: 130px;
+    border-radius: 35%; 
+    text-align: center;
+    color: #ffff;
+    margin: 0px 20px;
+    background: radial-gradient(circle at 100px 100px, #ffe94e, #ffd53e); 
+  }
+
+  .bg-three h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-four {
+    background: #80ed99;
+    height: 70px;
+    width: 120px;
+    border-radius: 35%; 
+    text-align: center;
+    color: #ffff;
+    margin: 0px 20px;
+    background: radial-gradient(circle at 100px 100px, #c7f9cc, #80ed99); 
+  }
+
+  .bg-four h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-music .bg-button{
+    padding: 13px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #ff5a5f;
+    text-align: center;
+    cursor: pointer;
+    width: 55%;
+    font-size: 18px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+
+.bg-music .bg-button:hover {
+    background-color: #e26468;
+    width: 65%;
+}
+    
+
+
+.bg-music .btn-bg{
+    margin-top: 30px ;
+    padding: 5px 15px;
+} 
+
+.bg-write{
+    margin-top: 160px;
+}
+.bg-write h2{
+    color: #03427e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+
+}
+
+.bg-robot {
+    margin: 5px 10px;
+    padding: 5px 15px;
+}
+
+.bg-robot h2{
+    color: #03427e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 450;
+    font-size: 30px; 
+}
+
+.bg-robot p{
+    color: #03427e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.bg-craft{
+    margin: 5px 10px;
+    padding: 5px 15px;
+}
+
+.bg-craft h2{
+    color: #03427e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 450;
+    font-size: 30px; 
+}
+
+.bg-craft p{
+    color: #03427e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.bg-program{
+    margin: 5px 10px;
+    padding: 5px 15px;
+}
+
+
+.bg-program h2{
+    color: #03427e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 450;
+    font-size: 30px; 
+}
+
+.bg-program p{
+    color: #03427e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.bg-music{
+    margin: 5px 10px;
+    padding: 5px 15px;
+}
+
+.bg-music h2{
+    color: #03427e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 450;
+    font-size: 30px; 
+}
+
+.bg-music p{
+    color: #03427e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.join-bg{
+    content: "";
+    right: 0;
+    top: 0;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-color: #e8eff1;
+}

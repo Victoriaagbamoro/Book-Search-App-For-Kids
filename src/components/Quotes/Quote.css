@@ -1,0 +1,24 @@
+.bg-quote{
+    background-color: #fdfffc;
+    height: 70vh;
+}
+
+.bg-quote .testify-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 700px;
+    height: 20vh;
+}
+
+
+.bg-quote .testify-text h2{
+    font-size: 30px;
+    color: #1b3b6f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 30px;
+    border-bottom: 5px solid #ffbe0b;
+}
+
